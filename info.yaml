@@ -1,7 +1,7 @@
 --- 
 # Tiny Tapeout project information
 project:
-  wokwi_id:    380081125168205825      # If using wokwi, set this to your project's ID
+  wokwi_id:    380124892006748161      # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -14,7 +14,7 @@ project:
   tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 8x2
 
 # Keep a track of the submission yaml
-yaml_version: 12
+yaml_version: 13
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
