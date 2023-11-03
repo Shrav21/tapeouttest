@@ -14,7 +14,7 @@ project:
   tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 8x2
 
 # Keep a track of the submission yaml
-yaml_version: 14
+yaml_version: 4
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
@@ -24,15 +24,15 @@ documentation:
   author:       "Shravyasai Koushik"      # Author
   title:        "7 segment display"      # Title
   language:     "Wokwi" 
-  description:  "Converts binary input up until 15 into 7 segment display"      # Short description of what your project does
+  description:  "Converts binary input up until 9 and some alphabets into 7 segment display"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Based on a simple logic circuit consisting of XOR and AND gates.
+      Based on a simple logic circuit consisting of OR and AND gates.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      First 3 switches correspond to a0, a1, a2 respectively. The 3 switches after that correspond to b0, b1, b2 respectively.
+      Utilise first 4 switches as binary input from 0-15.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
